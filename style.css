@@ -18,6 +18,7 @@ a {
     letter-spacing: 0.875px;
     color: #17233D;
 }
+
 a:nth-child(1) {
     margin-right: 36px;
     margin-left: 42px;
@@ -103,6 +104,34 @@ p {
     Width: 85px;
 }
 
+@media screen and (min-width: 1455px) {
+
+    header {
+        margin: 32px 0 163px 0
+    }
+
+    a {
+        margin-top: 16px
+    }
+
+    .button-singup {
+        margin-bottom: 0px
+    }
+
+    div {
+        display: inline-block;
+        margin-left: 130px;
+    }
+
+    .button-learn {
+        width: 112px
+    }
+
+    img {
+        margin-left: 200px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     a {
         display: none;
@@ -111,6 +140,7 @@ p {
     header {
         margin: 17px 0 0 0;
     }
+
     .button-singup {
         margin-left: calc(100% - 145px);
         margin-bottom: 0px;
